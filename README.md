@@ -1,4 +1,4 @@
-# 🔐 Password Generator with QR Code
+# 🔐 Password Generator
 
 A **React-based password generator** that allows users to generate strong, customizable passwords instantly. Includes a scannable **QR code** for easy transfer and enhanced usability.
 
@@ -41,7 +41,7 @@ A **React-based password generator** that allows users to generate strong, custo
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/your-username/password-generator.git
-cd password-generator
+git clone https://github.com/SaxenaPrashast/password_generator.git
+cd password_generator
 npm install
 npm run dev
