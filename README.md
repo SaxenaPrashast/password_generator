@@ -1,12 +1,47 @@
-# React + Vite
+# 🔐 Password Generator with QR Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based password generator** that allows users to generate strong, customizable passwords instantly. Includes a scannable **QR code** for easy transfer and enhanced usability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Real-time password generation based on selected options
+- 🔢 Adjustable password length (4 to 20 characters)
+- 🔁 Option to include:
+  - Numbers (`0–9`)
+  - Special characters (`!@#$%^&*()_+=`, etc.)
+- 📋 Copy-to-clipboard functionality
+- 💡 Clean, responsive UI built with **Tailwind CSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 How It Works
+
+1. Choose the password length using a slider.
+2. Enable or disable options for:
+   - Numbers
+   - Special characters
+3. The password is automatically generated in real-time.
+4. Use the **Copy** button to copy it to clipboard.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components + Hooks)
+- **Tailwind CSS** for styling
+- **Clipboard API** for copy functionality
+
+---
+
+![image](https://github.com/user-attachments/assets/324247a8-ae4e-479a-b0c0-f076ed4704e9)
+
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/password-generator.git
+cd password-generator
+npm install
+npm run dev
